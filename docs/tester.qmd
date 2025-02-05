@@ -1,0 +1,12 @@
+---
+title: "tester"
+format: html
+---
+
+```{r}
+#| echo: true
+
+getwd()
+file.exists('../img/quartoflow.png')
+knitr::include_graphics('../img/quartoflow.png')
+```
